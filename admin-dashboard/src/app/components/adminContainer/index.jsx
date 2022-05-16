@@ -1,9 +1,11 @@
 import React from 'react'
+import SideBar from '../SideBar/SideBar'
+
 
 const AdminContainer = () => {
     return (
         <div className="drawer drawer-mobile">
-            Dashboard
+            <SideBar />
             <button onClick={() => {
                 localStorage.removeItem('admin')
                 window.location.reload()

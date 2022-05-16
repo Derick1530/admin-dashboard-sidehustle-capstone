@@ -4,7 +4,14 @@ module.exports = {
     './src/**/*.{vue,jsx,ts,js}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'light-blue': '#bcd2e8'
+      },
+      margin: {
+        'marg': '-12px',
+      }
+    },
   },
   plugins: [require("daisyui")],
 }

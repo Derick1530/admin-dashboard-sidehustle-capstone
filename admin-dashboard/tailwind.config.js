@@ -6,10 +6,16 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'light-blue': '#bcd2e8'
+        'light-blue': '#bcd2e8',
+        'navy-blue': '#0a192f',
+        'white': '#ccd6f6',
+        'yellow': '#ffbf00'
       },
       margin: {
         'marg': '-12px',
+      },
+      width: {
+        '100': '90%',
       }
     },
   },

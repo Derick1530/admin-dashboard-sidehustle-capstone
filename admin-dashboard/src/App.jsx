@@ -19,7 +19,7 @@ function App() {
         <SideBar />
       </header>
       <main className='ml-10 text-xl w-full p-4 h-screen overflow-y-scroll'>
-        <div className=' p-4  mt-8 max-w-sm z-10 rounded-lg text-center bg-gray-900 font-bold text-amber-200 text-4xl'>
+        <div className=' p-4  mt-8 max-w-sm z-10 rounded-lg text-center bg-gray-900 font-bold text-amber-200 sm:text-2xl lg:text-4xl'>
           {location.pathname === '/'
             ? 'DASHBOARD'
             : location.pathname.toUpperCase().replace('/', '')}

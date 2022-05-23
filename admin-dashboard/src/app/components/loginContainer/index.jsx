@@ -21,8 +21,8 @@ const LoginContainer = () => {
         <p className='text-center text-4xl font-bold mt-3'>Login</p>
         <form onSubmit={onSubmitHandler}>
           <div className=' -mt-10 m-2 rounded-lg h-[20rem] bg-blue-500 hover:bg-blue-600 hover:backdrop-blur-sm hover:bg-clip-padding  shadow-lg hover:backdrop-filter-blur hover:bg-opacity-30 bg-opacity-50 flex justify-center flex-col p-6 space-y-6'>
-            <input type="text" className='input' placeholder='username' onChange={(e) => { setUsername(e.target.value) }} />
-            <input type="password" className='input' placeholder='*****' onChange={(e) => { setPassword(e.target.value) }} />
+            <input type="text" className='input' placeholder='username is admin' onChange={(e) => { setUsername(e.target.value) }} />
+            <input type="password" className='input' placeholder='password is admin' onChange={(e) => { setPassword(e.target.value) }} />
             <button className='btn'>sign in</button>
           </div>
         </form>

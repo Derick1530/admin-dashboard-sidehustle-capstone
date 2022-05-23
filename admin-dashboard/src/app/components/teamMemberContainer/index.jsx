@@ -9,8 +9,8 @@ const TeamMemberContainer = ({ data }) => {
 
     const displayData = data.map((item, index) => {
         return (
-            <div className='overflow-x-auto w-full p-4'>
-                <table className='table w-full'>
+            <div className=' overflow-x-auto w-full p-4'>
+                <table className='table w-full '>
                     <thead>
                         <tr>
                             <th>

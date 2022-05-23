@@ -4,8 +4,8 @@ import LineChart from "./lineChart"
 function DashboardContainer({ data }) {
 
     return (
-        <div className="flex flex-col space-y-5">
-            <div className=" flex justify-between">
+        <div className="lg:flex flex-col  space-y-5 ">
+            <div className=" sm:block md:flex lg:flex justify-between">
                 <div className="  bg-success flex items-center p-6 rounded-xl text-white space-x-2 shadow-lg">
 
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">

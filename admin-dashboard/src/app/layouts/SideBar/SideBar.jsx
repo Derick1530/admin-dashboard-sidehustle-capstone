@@ -8,6 +8,7 @@ import { FiUsers } from 'react-icons/fi'
 import { SiAsana } from 'react-icons/si'
 import { BsCartDash } from 'react-icons/bs'
 import { BsBarChart } from 'react-icons/bs'
+import {RiTeamFill} from 'react-icons/ri'
 import { IoMdLogOut } from 'react-icons/io'
 import { Link } from 'react-router-dom'
 
@@ -16,7 +17,7 @@ const SideBar = () => {
     const [open, setOpen] = useState(false)
     const Menue = [
         { title: 'Dashboard', src: <MdSpaceDashboard />, link: '/' },
-        { title: 'Team Members', src: <BsFillTagsFill />, link: 'team-members' },
+        { title: 'Team Members', src: <RiTeamFill />, link: 'team-members' },
         { title: 'Clients', src: <FiUsers />, gap: true, link: 'clients' },
         { title: 'Products', src: <BsFillTagsFill />, link: 'products' },
 
@@ -30,7 +31,7 @@ const SideBar = () => {
                 />
                 <div className={`flex gap-x-4 items-center mb-2`}>
                     <div>
-                        <IoIosFlash className={`text-yellow text-center cursor-pointer  duration-400 text-2xl`} />
+                        <RiTeamFill className={`text-yellow text-center cursor-pointer  duration-400 text-2xl`} />
                     </div>
                     <h1 className={`text-white duration-300 origin-left font-medium text-xl ${!open && 'scale-0'}`}>Logo</h1>
                 </div>

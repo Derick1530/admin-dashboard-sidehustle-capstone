@@ -1,0 +1,24 @@
+:root {
+    --container-width-lg: 75%;
+    --container-width-md: 86%;
+    --container-width-sm: 90%;
+}
+
+/* *************MEDIA QUERIES (MEDIUM DEVICES) */
+
+@media screen and (max-width: 1024px) {
+    .container {
+      width: var(--container-width-md);
+    }  
+  
+  }
+  
+  /* *************MEDIA QUERIES (SMALL DEVICE)*********** */
+  
+  @media  screen and (max-width: 600px) {
+    .container {
+      width: var(--container-width-sm);
+    }  
+  
+    
+  }

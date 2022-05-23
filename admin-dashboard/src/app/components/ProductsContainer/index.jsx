@@ -6,13 +6,15 @@ const ProductContainer = ({ data }) => {
     }
     const displayData = data.map((item, index) => {
         return (
-            <div>
-                <p>{item.name}</p>
+            <div className=' bg-white items-center w-fit px-6 py-1 my-4 rounded-lg'>
+                <p className='mb-3 mt-5'>{item.name}</p>
                 <img src={item.image} alt="Product Image" />
-
-                <p>{item.net_price}</p>
-                <p>{item.taxes}</p>
-                <p>{item.price}</p>
+                <div className=''>
+                    <p className='  rounded-lg'>Net Price: {item.net_price}</p>
+                    <p className=' '> Taxes: {item.taxes}</p> 
+                    <p>Price: {item.price}</p>
+                </div>
+                
 
 
             </div>

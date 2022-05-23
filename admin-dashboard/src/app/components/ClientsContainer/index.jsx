@@ -9,7 +9,7 @@ const ClientsContainer = ({ data }) => {
 
     const displayData = data.map((item, index) => {
         return (
-            <div className='overflow-x-auto w-full p-4'>
+            <div className='overflow-x-auto w-full p-4 block'>
                 <table className='table w-full'>
                     <thead>
                         <tr>
